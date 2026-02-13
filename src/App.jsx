@@ -3,9 +3,11 @@ import Footer from "./components/Footer"
 import Section from "./components/Section"
 
 function App() {
+  const name = "Eric";
+
   return (
     <div>
-    <Header />
+    <Header name={name}/>
     <Section />
     <Footer />
     </div>

@@ -1,7 +1,8 @@
-export default function Header() {
+export default function Header({name}) {
+
     return (
         <header>
-            <h1>Welcome to the <span id="txt-red">CodeCraft</span> Labs Intranet</h1>
+            <h1>Welcome {name} to <span id="txt-red">CodeCraft</span> Labs Intranet</h1>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
